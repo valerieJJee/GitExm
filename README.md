@@ -10,7 +10,8 @@ c6aca34   v-d
 
 55d8949   v-a
 
-![image-20220330170405031](/Users/jj/Library/Application Support/typora-user-images/image-20220330170405031.png)
+![2541648548123_ pic](https://user-images.githubusercontent.com/43733497/160795960-1326742a-c83b-4ac5-be0f-319c40ff9509.jpg)
+
 
 ### 分支操作
 
@@ -26,8 +27,7 @@ c6aca34   v-d
   - 第二部：执行merge命令，git merge [分支名]
 
 - 解决冲突
-
-  ![image-20220330170510947](/Users/jj/Library/Application Support/typora-user-images/image-20220330170510947.png)
+  ![2551648631100_ pic](https://user-images.githubusercontent.com/43733497/160796046-34600169-1065-4fa9-bd38-0310d1c58452.jpg)
 
 ### 合并多个commit
 
