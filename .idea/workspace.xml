@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3c872c23-e3a5-4f54-9ca1-c8dae4bcd18c" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="274MwQTHM9b3LxlA4oBjv4ALB9i" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="jdk8" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RunManager" selected="Application.Main (1)">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="module1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="GitExm" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>$USER_HOME$/.subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3c872c23-e3a5-4f54-9ca1-c8dae4bcd18c" name="Default Changelist" comment="" />
+      <created>1648575142054</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1648575142054</updated>
+      <workItem from="1648575146463" duration="10139000" />
+    </task>
+    <task id="LOCAL-00001" summary="initial">
+      <created>1648575257527</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1648575257527</updated>
+    </task>
+    <task id="LOCAL-00002" summary="v-1">
+      <created>1648575752144</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1648575752144</updated>
+    </task>
+    <task id="LOCAL-00003" summary="v-a">
+      <created>1648577708289</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1648577708289</updated>
+    </task>
+    <task id="LOCAL-00004" summary="v-b">
+      <created>1648577729031</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1648577729031</updated>
+    </task>
+    <task id="LOCAL-00005" summary="v-c">
+      <created>1648577745843</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1648577745843</updated>
+    </task>
+    <task id="LOCAL-00006" summary="v-d">
+      <created>1648577805528</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1648577805528</updated>
+    </task>
+    <task id="LOCAL-00007" summary="v-maven">
+      <created>1648626824838</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1648626824839</updated>
+    </task>
+    <task id="LOCAL-00008" summary="branch1 md-1">
+      <created>1648627457152</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1648627457152</updated>
+    </task>
+    <task id="LOCAL-00009" summary="branch1 md-1">
+      <created>1648627721006</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1648627721006</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial" />
+    <MESSAGE value="v-1" />
+    <MESSAGE value="v-a" />
+    <MESSAGE value="v-b" />
+    <MESSAGE value="v-c" />
+    <MESSAGE value="v-d" />
+    <MESSAGE value="v-maven" />
+    <MESSAGE value="branch1 md-1" />
+    <option name="LAST_COMMIT_MESSAGE" value="branch1 md-1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="697" y="155" key="#Project_Structure" timestamp="1648627193360">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="697" y="155" key="#Project_Structure/0.0.1792.1120@0.0.1792.1120" timestamp="1648627193360" />
+    <state x="1022" y="296" key="#com.intellij.ide.util.MemberChooser" timestamp="1648627655783">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="1022" y="296" key="#com.intellij.ide.util.MemberChooser/0.0.1792.1120@0.0.1792.1120" timestamp="1648627655783" />
+    <state x="805" y="247" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1648626646837">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="805" y="247" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1648626646837" />
+    <state x="571" y="162" key="CommitChangelistDialog2" timestamp="1648627720926">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="571" y="162" key="CommitChangelistDialog2/0.0.1792.1120@0.0.1792.1120" timestamp="1648627720926" />
+    <state x="355" y="70" key="DiffContextDialog" timestamp="1648603819485">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="355" y="70" key="DiffContextDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1648603819485" />
+    <state x="1011" y="445" key="Github.CreateGistDialog" timestamp="1648577558469">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="1011" y="445" key="Github.CreateGistDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1648577558469" />
+    <state x="932" y="433" width="359" height="198" key="Github.ShareDialog" timestamp="1648575612514">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="932" y="433" width="359" height="198" key="Github.ShareDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1648575612514" />
+    <state width="1055" height="213" key="GridCell.Tab.0.bottom" timestamp="1648627693476">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="1055" height="213" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1648627693476" />
+    <state width="1055" height="213" key="GridCell.Tab.0.center" timestamp="1648627693475">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="1055" height="213" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1648627693475" />
+    <state width="1055" height="213" key="GridCell.Tab.0.left" timestamp="1648627693474">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="1055" height="213" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1648627693474" />
+    <state width="1055" height="213" key="GridCell.Tab.0.right" timestamp="1648627693475">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="1055" height="213" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1648627693475" />
+    <state x="804" y="175" key="SettingsEditor" timestamp="1648577660055">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="804" y="175" key="SettingsEditor/0.0.1792.1120@0.0.1792.1120" timestamp="1648577660055" />
+    <state x="671" y="269" key="Vcs.Push.Dialog.v2" timestamp="1648628484642">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="671" y="269" key="Vcs.Push.Dialog.v2/0.0.1792.1120@0.0.1792.1120" timestamp="1648628484642" />
+    <state x="773" y="215" width="899" height="653" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1648577662165">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="773" y="215" width="899" height="653" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1648577662165" />
+    <state x="228" y="235" key="new project wizard" timestamp="1648626882175">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="228" y="235" key="new project wizard/0.0.1792.1120@0.0.1792.1120" timestamp="1648626882175" />
+    <state x="963" y="226" key="svn.repositoryBrowser" timestamp="1648576975763">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="963" y="226" key="svn.repositoryBrowser/0.0.1792.1120@0.0.1792.1120" timestamp="1648576975763" />
+  </component>
+</project>
