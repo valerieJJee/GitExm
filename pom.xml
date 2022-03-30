@@ -12,6 +12,9 @@
     <groupId>vjj</groupId>
     <artifactId>git-exm</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>module1</module>
+    </modules>
 
     <packaging>pom</packaging>
 
