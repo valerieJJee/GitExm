@@ -1,7 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="3c872c23-e3a5-4f54-9ca1-c8dae4bcd18c" name="Default Changelist" comment="" />
+    <list default="true" id="3c872c23-e3a5-4f54-9ca1-c8dae4bcd18c" name="Default Changelist" comment="module2">
+      <change afterPath="$PROJECT_DIR$/module2/module2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/main/java/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,7 +51,15 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="branch2" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GiteeDefaultAccount">
+    <option name="defaultAccountId" value="a519ccd3-c2e6-4516-b5ea-c572a6d5cfe0" />
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
@@ -38,7 +79,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="settings.gitee" />
   </component>
   <component name="RunManager" selected="Application.Main (1)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -59,6 +100,8 @@
       <list>
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -73,6 +116,7 @@
       <option name="presentableId" value="Default" />
       <updated>1648575142054</updated>
       <workItem from="1648575146463" duration="10139000" />
+      <workItem from="1648709816058" duration="914000" />
     </task>
     <task id="LOCAL-00001" summary="initial">
       <created>1648575257527</created>
@@ -137,11 +181,42 @@
       <option name="project" value="LOCAL" />
       <updated>1648627721006</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="v-2">
+      <created>1648708525817</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1648708525817</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial" />
@@ -152,7 +227,8 @@
     <MESSAGE value="v-d" />
     <MESSAGE value="v-maven" />
     <MESSAGE value="branch1 md-1" />
-    <option name="LAST_COMMIT_MESSAGE" value="branch1 md-1" />
+    <MESSAGE value="v-2" />
+    <option name="LAST_COMMIT_MESSAGE" value="v-2" />
   </component>
   <component name="WindowStateProjectService">
     <state x="697" y="155" key="#Project_Structure" timestamp="1648627193360">
@@ -167,14 +243,18 @@
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="805" y="247" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1648626646837" />
-    <state x="571" y="162" key="CommitChangelistDialog2" timestamp="1648627720926">
+    <state x="571" y="162" key="CommitChangelistDialog2" timestamp="1648708525746">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state x="571" y="162" key="CommitChangelistDialog2/0.0.1792.1120@0.0.1792.1120" timestamp="1648627720926" />
+    <state x="571" y="162" key="CommitChangelistDialog2/0.0.1792.1120@0.0.1792.1120" timestamp="1648708525746" />
     <state x="355" y="70" key="DiffContextDialog" timestamp="1648603819485">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="355" y="70" key="DiffContextDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1648603819485" />
+    <state x="909" y="506" key="Gitee.ShareDialog" timestamp="1648710604311">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="909" y="506" key="Gitee.ShareDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1648710604311" />
     <state x="1011" y="445" key="Github.CreateGistDialog" timestamp="1648577558469">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
@@ -199,22 +279,22 @@
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state width="1055" height="213" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1648627693475" />
-    <state x="804" y="175" key="SettingsEditor" timestamp="1648577660055">
+    <state x="631" y="170" key="SettingsEditor" timestamp="1648710583939">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state x="804" y="175" key="SettingsEditor/0.0.1792.1120@0.0.1792.1120" timestamp="1648577660055" />
-    <state x="671" y="269" key="Vcs.Push.Dialog.v2" timestamp="1648628484642">
+    <state x="631" y="170" key="SettingsEditor/0.0.1792.1120@0.0.1792.1120" timestamp="1648710583939" />
+    <state x="671" y="269" key="Vcs.Push.Dialog.v2" timestamp="1648710756844">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state x="671" y="269" key="Vcs.Push.Dialog.v2/0.0.1792.1120@0.0.1792.1120" timestamp="1648628484642" />
+    <state x="671" y="269" key="Vcs.Push.Dialog.v2/0.0.1792.1120@0.0.1792.1120" timestamp="1648710756844" />
     <state x="773" y="215" width="899" height="653" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1648577662165">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="773" y="215" width="899" height="653" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1648577662165" />
-    <state x="228" y="235" key="new project wizard" timestamp="1648626882175">
+    <state x="182" y="438" key="new project wizard" timestamp="1648710892309">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state x="228" y="235" key="new project wizard/0.0.1792.1120@0.0.1792.1120" timestamp="1648626882175" />
+    <state x="182" y="438" key="new project wizard/0.0.1792.1120@0.0.1792.1120" timestamp="1648710892309" />
     <state x="963" y="226" key="svn.repositoryBrowser" timestamp="1648576975763">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
