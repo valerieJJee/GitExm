@@ -19,6 +19,8 @@ c6aca34   v-d
 
 2）协作者
 
+3）代码审查。不直接对master分支进行提交或合并，而是通过提交Pull Request，并且进行审阅和讨论后最终合并到 master。
+
 ### 分支操作
 
 - 创建分支 git branch [分支名]
