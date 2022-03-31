@@ -25,15 +25,9 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3c872c23-e3a5-4f54-9ca1-c8dae4bcd18c" name="Default Changelist" comment="module2">
-      <change afterPath="$PROJECT_DIR$/module2/module2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module2/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module2/src/main/java/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="3c872c23-e3a5-4f54-9ca1-c8dae4bcd18c" name="Default Changelist" comment="add module2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module2/src/main/java/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/module2/src/main/java/Client.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +73,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="settings.gitee" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
   <component name="RunManager" selected="Application.Main (1)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -116,7 +110,7 @@
       <option name="presentableId" value="Default" />
       <updated>1648575142054</updated>
       <workItem from="1648575146463" duration="10139000" />
-      <workItem from="1648709816058" duration="914000" />
+      <workItem from="1648709816058" duration="2617000" />
     </task>
     <task id="LOCAL-00001" summary="initial">
       <created>1648575257527</created>
@@ -188,7 +182,14 @@
       <option name="project" value="LOCAL" />
       <updated>1648708525817</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="add module2">
+      <created>1648711079526</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1648711079526</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -228,7 +229,8 @@
     <MESSAGE value="v-maven" />
     <MESSAGE value="branch1 md-1" />
     <MESSAGE value="v-2" />
-    <option name="LAST_COMMIT_MESSAGE" value="v-2" />
+    <MESSAGE value="add module2" />
+    <option name="LAST_COMMIT_MESSAGE" value="add module2" />
   </component>
   <component name="WindowStateProjectService">
     <state x="697" y="155" key="#Project_Structure" timestamp="1648627193360">
@@ -243,10 +245,10 @@
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="805" y="247" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1648626646837" />
-    <state x="571" y="162" key="CommitChangelistDialog2" timestamp="1648708525746">
+    <state x="571" y="162" key="CommitChangelistDialog2" timestamp="1648711945930">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state x="571" y="162" key="CommitChangelistDialog2/0.0.1792.1120@0.0.1792.1120" timestamp="1648708525746" />
+    <state x="571" y="162" key="CommitChangelistDialog2/0.0.1792.1120@0.0.1792.1120" timestamp="1648711945930" />
     <state x="355" y="70" key="DiffContextDialog" timestamp="1648603819485">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
@@ -279,14 +281,14 @@
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state width="1055" height="213" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1648627693475" />
-    <state x="631" y="170" key="SettingsEditor" timestamp="1648710583939">
+    <state x="631" y="170" key="SettingsEditor" timestamp="1648711878091">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state x="631" y="170" key="SettingsEditor/0.0.1792.1120@0.0.1792.1120" timestamp="1648710583939" />
-    <state x="671" y="269" key="Vcs.Push.Dialog.v2" timestamp="1648710756844">
+    <state x="631" y="170" key="SettingsEditor/0.0.1792.1120@0.0.1792.1120" timestamp="1648711878091" />
+    <state x="671" y="269" key="Vcs.Push.Dialog.v2" timestamp="1648712103529">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state x="671" y="269" key="Vcs.Push.Dialog.v2/0.0.1792.1120@0.0.1792.1120" timestamp="1648710756844" />
+    <state x="671" y="269" key="Vcs.Push.Dialog.v2/0.0.1792.1120@0.0.1792.1120" timestamp="1648712103529" />
     <state x="773" y="215" width="899" height="653" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1648577662165">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
