@@ -13,6 +13,12 @@ c6aca34   v-d
 ![2541648548123_ pic](https://user-images.githubusercontent.com/43733497/160795960-1326742a-c83b-4ac5-be0f-319c40ff9509.jpg)
 
 
+### 分支保护
+
+1）将 master 设置为保护分支，并授权什么用户可以向 master 用户推送代码。
+
+2）协作者
+
 ### 分支操作
 
 - 创建分支 git branch [分支名]
