@@ -23,6 +23,80 @@ c6aca34   v-d
 
 ### 分支操作
 
+``` bash
+jj@master GitExm % git branch -v              
+* development 44b1a00 add module2
+  master      e942719 v-2
+jj@master GitExm % git pull development       
+fatal: 'development' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+jj@master GitExm % git pull origin development 
+^C
+jj@master GitExm % git pull gitee development
+From https://gitee.com/valerieJJ/GitExm
+ * branch            development -> FETCH_HEAD
+Already up to date.
+jj@master GitExm % git checkout master
+error: Your local changes to the following files would be overwritten by checkout:
+        .idea/workspace.xml
+Please commit your changes or stash them before you switch branches.
+Aborting
+jj@master GitExm % git branch -v
+* development 8ec3d27 add module2 2.2
+  master      e942719 v-2
+jj@master GitExm % git commit .idea/workspace.xml 
+Aborting commit due to empty commit message.
+jj@master GitExm % git branch -v                 
+* development b1b7846 [ahead 1] add module2 2.2
+  master      e942719 v-2
+jj@master GitExm % git checkout master           
+Switched to branch 'master'
+Your branch is up to date with 'gitee/master'.
+jj@master GitExm % git branch -v      
+  development b1b7846 [ahead 1] add module2 2.2
+* master      e942719 v-2
+jj@master GitExm % git merge development
+Updating e942719..b1b7846
+Fast-forward
+ .idea/compiler.xml                |   2 +
+ .idea/misc.xml                    |   5 +++
+ .idea/modules.xml                 |   1 +
+ .idea/workspace.xml               | 122 ++++++++++++++++++++++++++++++++++++++++++++++++++++++------
+ module2/module2.iml               |  11 ++++++
+ module2/pom.xml                   |  15 ++++++++
+ module2/src/main/java/Client.java |   6 +++
+ pom.xml                           |   1 +
+ 8 files changed, 151 insertions(+), 12 deletions(-)
+ create mode 100644 module2/module2.iml
+ create mode 100644 module2/pom.xml
+ create mode 100644 module2/src/main/java/Client.java
+jj@master GitExm % git push gitee master
+Counting objects: 4, done.
+Delta compression using up to 12 threads.
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 580 bytes | 580.00 KiB/s, done.
+Total 4 (delta 3), reused 0 (delta 0)
+remote: Powered by GITEE.COM [GNK-6.3]
+To https://gitee.com/valerieJJ/GitExm.git
+   e942719..b1b7846  master -> master
+jj@master GitExm % 
+jj@master GitExm % 
+jj@master GitExm % 
+jj@master GitExm % git branch -v        
+  development b1b7846 [ahead 1] add module2 2.2
+* master      b1b7846 add module2 2.2
+jj@master GitExm % git push origin master
+Username for 'https://github.com': valerieJJ
+Password for 'https://valerieJJ@github.com': 
+remote: Support for password authentication was removed on August 13, 2021. Please use a personal access token instead.
+remote: Please see https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/ for more information.
+fatal: Authentication failed for 'https://github.com/valerieJJ/GitExm.git/'
+jj@master GitExm % 
+```
+
 - 创建分支 git branch [分支名]
 
 - 查看分支 git branch -v
