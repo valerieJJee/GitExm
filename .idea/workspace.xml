@@ -27,6 +27,7 @@
   <component name="ChangeListManager">
     <list default="true" id="3c872c23-e3a5-4f54-9ca1-c8dae4bcd18c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module2/src/main/java/Feature.java" beforeDir="false" afterPath="$PROJECT_DIR$/module2/src/main/java/Feature.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -280,10 +281,10 @@
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="571" y="162" key="CommitChangelistDialog2/0.0.1792.1120@0.0.1792.1120" timestamp="1648828476814" />
-    <state x="355" y="70" key="DiffContextDialog" timestamp="1648603819485">
+    <state x="355" y="70" width="1433" height="897" key="DiffContextDialog" timestamp="1648829556835">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state x="355" y="70" key="DiffContextDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1648603819485" />
+    <state x="355" y="70" width="1433" height="897" key="DiffContextDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1648829556835" />
     <state x="909" y="506" key="Gitee.ShareDialog" timestamp="1648710604311">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
@@ -312,14 +313,22 @@
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state width="1055" height="213" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1648627693475" />
+    <state x="359" y="63" key="MergeDialog" timestamp="1648829423059">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="359" y="63" key="MergeDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1648829423059" />
+    <state x="1106" y="394" width="523" height="262" key="MultipleFileMergeDialog" timestamp="1648829423083">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="1106" y="394" width="523" height="262" key="MultipleFileMergeDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1648829423083" />
     <state x="631" y="170" key="SettingsEditor" timestamp="1648711878091">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="631" y="170" key="SettingsEditor/0.0.1792.1120@0.0.1792.1120" timestamp="1648711878091" />
-    <state x="671" y="269" key="Vcs.Push.Dialog.v2" timestamp="1648828491626">
+    <state x="671" y="269" key="Vcs.Push.Dialog.v2" timestamp="1648829514239">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state x="671" y="269" key="Vcs.Push.Dialog.v2/0.0.1792.1120@0.0.1792.1120" timestamp="1648828491626" />
+    <state x="671" y="269" key="Vcs.Push.Dialog.v2/0.0.1792.1120@0.0.1792.1120" timestamp="1648829514239" />
     <state x="773" y="215" width="899" height="653" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1648577662165">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
