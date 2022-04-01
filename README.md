@@ -99,6 +99,26 @@ fatal: Authentication failed for 'https://github.com/valerieJJ/GitExm.git/'
 jj@master GitExm % 
 ```
 
+``` bash
+jj@master GitExm % git push gitee development
+Enumerating objects: 13, done.
+Counting objects: 100% (13/13), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (8/8), 601 bytes | 601.00 KiB/s, done.
+Total 8 (delta 3), reused 0 (delta 0), pack-reused 0
+remote: Powered by GITEE.COM [GNK-6.3]
+To https://gitee.com/valerieJJ/GitExm.git
+   8ec3d27..0d1f828  development -> development
+jj@master GitExm % git tag                   
+v1.0
+jj@master GitExm % git tag -a 'v2.0' -m 'tagged dev fea1' 0d1f828
+jj@master GitExm % git tag                                       
+v1.0
+v2.0
+
+```
+
 - 创建分支 git branch [分支名]
 
 - 查看分支 git branch -v
