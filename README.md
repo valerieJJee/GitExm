@@ -96,6 +96,7 @@ fatal: Authentication failed for 'https://github.com/valerieJJ/GitExm.git/'
 jj@master GitExm % 
 ```
 
+### feature 分支
 ``` bash
 jj@master GitExm % git branch -v           
 * development b1b7846 [ahead 1] add module2 2.2
