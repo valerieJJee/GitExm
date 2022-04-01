@@ -190,6 +190,9 @@ jj@master GitExm % git push gitee tag v2.0
 - `pick` 的意思是要会执行这个 commit
 - `squash` 的意思是这个 commit 会被合并到前一个commit
 
+### 修改commit信息
+https://cloud.tencent.com/developer/article/1730774
+
 ### 暂时将未提交的变化移除，稍后再移入
 
 [git-stash用法小结](https://www.cnblogs.com/tocy/p/git-stash-reference.html)
