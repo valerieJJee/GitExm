@@ -84,9 +84,6 @@ Total 4 (delta 3), reused 0 (delta 0)
 remote: Powered by GITEE.COM [GNK-6.3]
 To https://gitee.com/valerieJJ/GitExm.git
    e942719..b1b7846  master -> master
-jj@master GitExm % 
-jj@master GitExm % 
-jj@master GitExm % 
 jj@master GitExm % git branch -v        
   development b1b7846 [ahead 1] add module2 2.2
 * master      b1b7846 add module2 2.2
@@ -100,22 +97,74 @@ jj@master GitExm %
 ```
 
 ``` bash
+jj@master GitExm % git branch -v           
+* development b1b7846 [ahead 1] add module2 2.2
+  master      b1b7846 add module2 2.2]
+  
+jj@master GitExm % git switch -c feature-b1 
+Switched to a new branch 'feature-b1'
+jj@master GitExm % git branch -v           
+  development b1b7846 [ahead 1] add module2 2.2
+* feature-b1  b1b7846 add module2 2.2
+  master      b1b7846 add module2 2.2
+
+jj@master GitExm % git add module2/src/main/java/Feature.java
+
+jj@master GitExm % git commit -m "feature" 
+[feature-b1 b7daeda] feature
+ 1 file changed, 3 insertions(+)
+ create mode 100644 module2/src/main/java/Feature.java
+jj@master GitExm % git branch -v          
+  development b1b7846 [behind 1] add module2 2.2
+* feature-b1  b7daeda feature
+  master      b1b7846 add module2 2.2
+
+jj@master GitExm % git switch development
+M       .idea/workspace.xml
+Switched to branch 'development'
+Your branch is behind 'origin/development' by 1 commit, and can be fast-forwarded.
+  (use "git pull" to update your local branch)
+jj@master GitExm % git branch -v          
+* development b1b7846 [behind 1] add module2 2.2
+  feature-b1  b7daeda feature
+  master      b1b7846 add module2 2.2
+
+jj@master GitExm % git merge --no-ff -m "merge feature-b1" feature-b1 
+Merge made by the 'recursive' strategy.
+ module2/src/main/java/Feature.java | 3 +++
+ 1 file changed, 3 insertions(+)
+ create mode 100644 module2/src/main/java/Feature.java
+
+jj@master GitExm % git branch -v                                        
+* development 0d1f828 [ahead 2, behind 1] merge feature-b1
+  feature-b1  b7daeda feature
+  master      b1b7846 add module2 2.2
+jj@master GitExm % git log --oneline                                    
+0d1f828 (HEAD -> development) merge feature-b1
+b7daeda (feature-b1) feature
+b1b7846 (gitee/master, master) add module2 2.2
+8ec3d27 (gitee/development) add module2 2.2
+ae28c8f add module2 2.1
+44b1a00 add module2
+e942719 v-2
+05e3c1a (origin/master) merged branch1
+6274612 branch md-squashed
+0ac78c3 v-maven
+230e9d8 squashed v-cd
+91f8e4b v-b
+55d8949 v-a
+df3d690 v-1
+0beb42a initial
+
 jj@master GitExm % git push gitee development
-Enumerating objects: 13, done.
-Counting objects: 100% (13/13), done.
-Delta compression using up to 12 threads
-Compressing objects: 100% (6/6), done.
-Writing objects: 100% (8/8), 601 bytes | 601.00 KiB/s, done.
-Total 8 (delta 3), reused 0 (delta 0), pack-reused 0
-remote: Powered by GITEE.COM [GNK-6.3]
-To https://gitee.com/valerieJJ/GitExm.git
-   8ec3d27..0d1f828  development -> development
+
 jj@master GitExm % git tag                   
 v1.0
 jj@master GitExm % git tag -a 'v2.0' -m 'tagged dev fea1' 0d1f828
 jj@master GitExm % git tag                                       
 v1.0
 v2.0
+jj@master GitExm % git push gitee tag v2.0  
 
 ```
 
