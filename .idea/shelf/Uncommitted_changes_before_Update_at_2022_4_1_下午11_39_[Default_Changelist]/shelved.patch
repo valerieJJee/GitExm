@@ -1,0 +1,117 @@
+Index: module2/src/main/java/Client.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>public class Client {\n    String name = \"mike\";\n    int age = 50;\n    String nation = \"usa\";\n\n}\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- module2/src/main/java/Client.java	(revision 0d1f828472fa9e96ef7abffd0903441ca1aa2896)
++++ module2/src/main/java/Client.java	(date 1648826960736)
+@@ -2,5 +2,4 @@
+     String name = "mike";
+     int age = 50;
+     String nation = "usa";
+-
+ }
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"BranchesTreeState\">\n    <expand>\n      <path>\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n        <item name=\"LOCAL_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n      </path>\n      <path>\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n        <item name=\"REMOTE_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n      </path>\n      <path>\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n        <item name=\"REMOTE_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n        <item name=\"GROUP_NODE:origin\" type=\"e8cecc67:BranchNodeDescriptor\" />\n      </path>\n    </expand>\n    <select>\n      <path>\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n        <item name=\"LOCAL_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n        <item name=\"BRANCH:master\" type=\"e8cecc67:BranchNodeDescriptor\" />\n      </path>\n    </select>\n  </component>\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"3c872c23-e3a5-4f54-9ca1-c8dae4bcd18c\" name=\"Default Changelist\" comment=\"add module2 2.2\">\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\n    </list>\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"CodeStyleSettingsInfer\">\n    <option name=\"done\" value=\"true\" />\n  </component>\n  <component name=\"FileTemplateManagerImpl\">\n    <option name=\"RECENT_TEMPLATES\">\n      <list>\n        <option value=\"Class\" />\n      </list>\n    </option>\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\n      <map>\n        <entry key=\"$PROJECT_DIR$\" value=\"branch2\" />\n      </map>\n    </option>\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"GiteeDefaultAccount\">\n    <option name=\"defaultAccountId\" value=\"a519ccd3-c2e6-4516-b5ea-c572a6d5cfe0\" />\n  </component>\n  <component name=\"ProjectCodeStyleSettingsMigration\">\n    <option name=\"version\" value=\"1\" />\n  </component>\n  <component name=\"ProjectId\" id=\"274MwQTHM9b3LxlA4oBjv4ALB9i\" />\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\">\n    <property name=\"RunOnceActivity.OpenProjectViewOnStart\" value=\"true\" />\n    <property name=\"RunOnceActivity.ShowReadmeOnStart\" value=\"true\" />\n    <property name=\"WebServerToolWindowFactoryState\" value=\"false\" />\n    <property name=\"aspect.path.notification.shown\" value=\"true\" />\n    <property name=\"jdk.selected.JAVA_MODULE\" value=\"jdk8\" />\n    <property name=\"project.structure.last.edited\" value=\"Modules\" />\n    <property name=\"project.structure.proportion\" value=\"0.0\" />\n    <property name=\"project.structure.side.proportion\" value=\"0.0\" />\n    <property name=\"settings.editor.selected.configurable\" value=\"org.jetbrains.plugins.github.ui.GithubSettingsConfigurable\" />\n  </component>\n  <component name=\"RunManager\" selected=\"Application.Main (1)\">\n    <configuration name=\"Main (1)\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\n      <option name=\"MAIN_CLASS_NAME\" value=\"Main\" />\n      <module name=\"module1\" />\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <configuration name=\"Main\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\n      <option name=\"MAIN_CLASS_NAME\" value=\"Main\" />\n      <module name=\"GitExm\" />\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <recent_temporary>\n      <list>\n        <item itemvalue=\"Application.Main (1)\" />\n        <item itemvalue=\"Application.Main\" />\n        <item itemvalue=\"Application.Main (1)\" />\n        <item itemvalue=\"Application.Main\" />\n      </list>\n    </recent_temporary>\n  </component>\n  <component name=\"SvnConfiguration\">\n    <configuration>$USER_HOME$/.subversion</configuration>\n  </component>\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"3c872c23-e3a5-4f54-9ca1-c8dae4bcd18c\" name=\"Default Changelist\" comment=\"\" />\n      <created>1648575142054</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1648575142054</updated>\n      <workItem from=\"1648575146463\" duration=\"10139000\" />\n      <workItem from=\"1648709816058\" duration=\"4009000\" />\n    </task>\n    <task id=\"LOCAL-00001\" summary=\"initial\">\n      <created>1648575257527</created>\n      <option name=\"number\" value=\"00001\" />\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1648575257527</updated>\n    </task>\n    <task id=\"LOCAL-00002\" summary=\"v-1\">\n      <created>1648575752144</created>\n      <option name=\"number\" value=\"00002\" />\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1648575752144</updated>\n    </task>\n    <task id=\"LOCAL-00003\" summary=\"v-a\">\n      <created>1648577708289</created>\n      <option name=\"number\" value=\"00003\" />\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1648577708289</updated>\n    </task>\n    <task id=\"LOCAL-00004\" summary=\"v-b\">\n      <created>1648577729031</created>\n      <option name=\"number\" value=\"00004\" />\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1648577729031</updated>\n    </task>\n    <task id=\"LOCAL-00005\" summary=\"v-c\">\n      <created>1648577745843</created>\n      <option name=\"number\" value=\"00005\" />\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1648577745843</updated>\n    </task>\n    <task id=\"LOCAL-00006\" summary=\"v-d\">\n      <created>1648577805528</created>\n      <option name=\"number\" value=\"00006\" />\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1648577805528</updated>\n    </task>\n    <task id=\"LOCAL-00007\" summary=\"v-maven\">\n      <created>1648626824838</created>\n      <option name=\"number\" value=\"00007\" />\n      <option name=\"presentableId\" value=\"LOCAL-00007\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1648626824839</updated>\n    </task>\n    <task id=\"LOCAL-00008\" summary=\"branch1 md-1\">\n      <created>1648627457152</created>\n      <option name=\"number\" value=\"00008\" />\n      <option name=\"presentableId\" value=\"LOCAL-00008\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1648627457152</updated>\n    </task>\n    <task id=\"LOCAL-00009\" summary=\"branch1 md-1\">\n      <created>1648627721006</created>\n      <option name=\"number\" value=\"00009\" />\n      <option name=\"presentableId\" value=\"LOCAL-00009\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1648627721006</updated>\n    </task>\n    <task id=\"LOCAL-00010\" summary=\"v-2\">\n      <created>1648708525817</created>\n      <option name=\"number\" value=\"00010\" />\n      <option name=\"presentableId\" value=\"LOCAL-00010\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1648708525817</updated>\n    </task>\n    <task id=\"LOCAL-00011\" summary=\"add module2\">\n      <created>1648711079526</created>\n      <option name=\"number\" value=\"00011\" />\n      <option name=\"presentableId\" value=\"LOCAL-00011\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1648711079526</updated>\n    </task>\n    <task id=\"LOCAL-00012\" summary=\"add module2 2.1\">\n      <created>1648713320380</created>\n      <option name=\"number\" value=\"00012\" />\n      <option name=\"presentableId\" value=\"LOCAL-00012\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1648713320380</updated>\n    </task>\n    <task id=\"LOCAL-00013\" summary=\"add module2 2.2\">\n      <created>1648713343944</created>\n      <option name=\"number\" value=\"00013\" />\n      <option name=\"presentableId\" value=\"LOCAL-00013\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1648713343944</updated>\n    </task>\n    <option name=\"localTasksCounter\" value=\"14\" />\n    <servers />\n  </component>\n  <component name=\"TypeScriptGeneratedFilesManager\">\n    <option name=\"version\" value=\"2\" />\n  </component>\n  <component name=\"Vcs.Log.Tabs.Properties\">\n    <option name=\"TAB_STATES\">\n      <map>\n        <entry key=\"MAIN\">\n          <value>\n            <State>\n              <option name=\"FILTERS\">\n                <map>\n                  <entry key=\"branch\">\n                    <value>\n                      <list>\n                        <option value=\"master\" />\n                      </list>\n                    </value>\n                  </entry>\n                </map>\n              </option>\n            </State>\n          </value>\n        </entry>\n      </map>\n    </option>\n    <option name=\"oldMeFiltersMigrated\" value=\"true\" />\n  </component>\n  <component name=\"VcsManagerConfiguration\">\n    <MESSAGE value=\"initial\" />\n    <MESSAGE value=\"v-1\" />\n    <MESSAGE value=\"v-a\" />\n    <MESSAGE value=\"v-b\" />\n    <MESSAGE value=\"v-c\" />\n    <MESSAGE value=\"v-d\" />\n    <MESSAGE value=\"v-maven\" />\n    <MESSAGE value=\"branch1 md-1\" />\n    <MESSAGE value=\"v-2\" />\n    <MESSAGE value=\"add module2\" />\n    <MESSAGE value=\"add module2 2.1\" />\n    <MESSAGE value=\"add module2 2.2\" />\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"add module2 2.2\" />\n    <option name=\"REARRANGE_BEFORE_PROJECT_COMMIT\" value=\"true\" />\n  </component>\n  <component name=\"WindowStateProjectService\">\n    <state x=\"697\" y=\"155\" key=\"#Project_Structure\" timestamp=\"1648627193360\">\n      <screen x=\"0\" y=\"0\" width=\"1792\" height=\"1120\" />\n    </state>\n    <state x=\"697\" y=\"155\" key=\"#Project_Structure/0.0.1792.1120@0.0.1792.1120\" timestamp=\"1648627193360\" />\n    <state x=\"1022\" y=\"296\" key=\"#com.intellij.ide.util.MemberChooser\" timestamp=\"1648627655783\">\n      <screen x=\"0\" y=\"0\" width=\"1792\" height=\"1120\" />\n    </state>\n    <state x=\"1022\" y=\"296\" key=\"#com.intellij.ide.util.MemberChooser/0.0.1792.1120@0.0.1792.1120\" timestamp=\"1648627655783\" />\n    <state x=\"805\" y=\"247\" key=\"#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog\" timestamp=\"1648626646837\">\n      <screen x=\"0\" y=\"0\" width=\"1792\" height=\"1120\" />\n    </state>\n    <state x=\"805\" y=\"247\" key=\"#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1792.1120@0.0.1792.1120\" timestamp=\"1648626646837\" />\n    <state x=\"571\" y=\"162\" key=\"CommitChangelistDialog2\" timestamp=\"1648719365453\">\n      <screen x=\"0\" y=\"0\" width=\"1792\" height=\"1120\" />\n    </state>\n    <state x=\"571\" y=\"162\" key=\"CommitChangelistDialog2/0.0.1792.1120@0.0.1792.1120\" timestamp=\"1648719365453\" />\n    <state x=\"355\" y=\"70\" key=\"DiffContextDialog\" timestamp=\"1648603819485\">\n      <screen x=\"0\" y=\"0\" width=\"1792\" height=\"1120\" />\n    </state>\n    <state x=\"355\" y=\"70\" key=\"DiffContextDialog/0.0.1792.1120@0.0.1792.1120\" timestamp=\"1648603819485\" />\n    <state x=\"909\" y=\"506\" key=\"Gitee.ShareDialog\" timestamp=\"1648710604311\">\n      <screen x=\"0\" y=\"0\" width=\"1792\" height=\"1120\" />\n    </state>\n    <state x=\"909\" y=\"506\" key=\"Gitee.ShareDialog/0.0.1792.1120@0.0.1792.1120\" timestamp=\"1648710604311\" />\n    <state x=\"1011\" y=\"445\" key=\"Github.CreateGistDialog\" timestamp=\"1648577558469\">\n      <screen x=\"0\" y=\"0\" width=\"1792\" height=\"1120\" />\n    </state>\n    <state x=\"1011\" y=\"445\" key=\"Github.CreateGistDialog/0.0.1792.1120@0.0.1792.1120\" timestamp=\"1648577558469\" />\n    <state x=\"932\" y=\"433\" width=\"359\" height=\"198\" key=\"Github.ShareDialog\" timestamp=\"1648575612514\">\n      <screen x=\"0\" y=\"0\" width=\"1792\" height=\"1120\" />\n    </state>\n    <state x=\"932\" y=\"433\" width=\"359\" height=\"198\" key=\"Github.ShareDialog/0.0.1792.1120@0.0.1792.1120\" timestamp=\"1648575612514\" />\n    <state width=\"1055\" height=\"213\" key=\"GridCell.Tab.0.bottom\" timestamp=\"1648627693476\">\n      <screen x=\"0\" y=\"0\" width=\"1792\" height=\"1120\" />\n    </state>\n    <state width=\"1055\" height=\"213\" key=\"GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120\" timestamp=\"1648627693476\" />\n    <state width=\"1055\" height=\"213\" key=\"GridCell.Tab.0.center\" timestamp=\"1648627693475\">\n      <screen x=\"0\" y=\"0\" width=\"1792\" height=\"1120\" />\n    </state>\n    <state width=\"1055\" height=\"213\" key=\"GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120\" timestamp=\"1648627693475\" />\n    <state width=\"1055\" height=\"213\" key=\"GridCell.Tab.0.left\" timestamp=\"1648627693474\">\n      <screen x=\"0\" y=\"0\" width=\"1792\" height=\"1120\" />\n    </state>\n    <state width=\"1055\" height=\"213\" key=\"GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120\" timestamp=\"1648627693474\" />\n    <state width=\"1055\" height=\"213\" key=\"GridCell.Tab.0.right\" timestamp=\"1648627693475\">\n      <screen x=\"0\" y=\"0\" width=\"1792\" height=\"1120\" />\n    </state>\n    <state width=\"1055\" height=\"213\" key=\"GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120\" timestamp=\"1648627693475\" />\n    <state x=\"631\" y=\"170\" key=\"SettingsEditor\" timestamp=\"1648711878091\">\n      <screen x=\"0\" y=\"0\" width=\"1792\" height=\"1120\" />\n    </state>\n    <state x=\"631\" y=\"170\" key=\"SettingsEditor/0.0.1792.1120@0.0.1792.1120\" timestamp=\"1648711878091\" />\n    <state x=\"671\" y=\"269\" key=\"Vcs.Push.Dialog.v2\" timestamp=\"1648719357063\">\n      <screen x=\"0\" y=\"0\" width=\"1792\" height=\"1120\" />\n    </state>\n    <state x=\"671\" y=\"269\" key=\"Vcs.Push.Dialog.v2/0.0.1792.1120@0.0.1792.1120\" timestamp=\"1648719357063\" />\n    <state x=\"773\" y=\"215\" width=\"899\" height=\"653\" key=\"com.intellij.history.integration.ui.views.FileHistoryDialog\" timestamp=\"1648577662165\">\n      <screen x=\"0\" y=\"0\" width=\"1792\" height=\"1120\" />\n    </state>\n    <state x=\"773\" y=\"215\" width=\"899\" height=\"653\" key=\"com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1792.1120@0.0.1792.1120\" timestamp=\"1648577662165\" />\n    <state x=\"182\" y=\"438\" key=\"new project wizard\" timestamp=\"1648710892309\">\n      <screen x=\"0\" y=\"0\" width=\"1792\" height=\"1120\" />\n    </state>\n    <state x=\"182\" y=\"438\" key=\"new project wizard/0.0.1792.1120@0.0.1792.1120\" timestamp=\"1648710892309\" />\n    <state x=\"963\" y=\"226\" key=\"svn.repositoryBrowser\" timestamp=\"1648576975763\">\n      <screen x=\"0\" y=\"0\" width=\"1792\" height=\"1120\" />\n    </state>\n    <state x=\"963\" y=\"226\" key=\"svn.repositoryBrowser/0.0.1792.1120@0.0.1792.1120\" timestamp=\"1648576975763\" />\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/workspace.xml	(revision 0d1f828472fa9e96ef7abffd0903441ca1aa2896)
++++ .idea/workspace.xml	(date 1648827556250)
+@@ -25,8 +25,10 @@
+     </select>
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="3c872c23-e3a5-4f54-9ca1-c8dae4bcd18c" name="Default Changelist" comment="add module2 2.2">
++    <list default="true" id="3c872c23-e3a5-4f54-9ca1-c8dae4bcd18c" name="Default Changelist" comment="solve conflict Merge remote-tracking branch 'origin/development' into development">
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/module2/src/main/java/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/module2/src/main/java/Client.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/module2/src/main/java/Feature.java" beforeDir="false" afterPath="$PROJECT_DIR$/module2/src/main/java/Feature.java" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -109,7 +111,7 @@
+       <option name="presentableId" value="Default" />
+       <updated>1648575142054</updated>
+       <workItem from="1648575146463" duration="10139000" />
+-      <workItem from="1648709816058" duration="4009000" />
++      <workItem from="1648709816058" duration="8824000" />
+     </task>
+     <task id="LOCAL-00001" summary="initial">
+       <created>1648575257527</created>
+@@ -202,7 +204,14 @@
+       <option name="project" value="LOCAL" />
+       <updated>1648713343944</updated>
+     </task>
+-    <option name="localTasksCounter" value="14" />
++    <task id="LOCAL-00014" summary="add module2 2.2">
++      <created>1648719903672</created>
++      <option name="number" value="00014" />
++      <option name="presentableId" value="LOCAL-00014" />
++      <option name="project" value="LOCAL" />
++      <updated>1648719903672</updated>
++    </task>
++    <option name="localTasksCounter" value="15" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+@@ -245,7 +254,8 @@
+     <MESSAGE value="add module2" />
+     <MESSAGE value="add module2 2.1" />
+     <MESSAGE value="add module2 2.2" />
+-    <option name="LAST_COMMIT_MESSAGE" value="add module2 2.2" />
++    <MESSAGE value="solve conflict Merge remote-tracking branch 'origin/development' into development" />
++    <option name="LAST_COMMIT_MESSAGE" value="solve conflict Merge remote-tracking branch 'origin/development' into development" />
+     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
+   </component>
+   <component name="WindowStateProjectService">
+@@ -261,14 +271,14 @@
+       <screen x="0" y="0" width="1792" height="1120" />
+     </state>
+     <state x="805" y="247" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1648626646837" />
+-    <state x="571" y="162" key="CommitChangelistDialog2" timestamp="1648719365453">
++    <state x="571" y="162" key="CommitChangelistDialog2" timestamp="1648827537458">
+       <screen x="0" y="0" width="1792" height="1120" />
+     </state>
+-    <state x="571" y="162" key="CommitChangelistDialog2/0.0.1792.1120@0.0.1792.1120" timestamp="1648719365453" />
+-    <state x="355" y="70" key="DiffContextDialog" timestamp="1648603819485">
++    <state x="571" y="162" key="CommitChangelistDialog2/0.0.1792.1120@0.0.1792.1120" timestamp="1648827537458" />
++    <state x="161" y="69" key="DiffContextDialog" timestamp="1648827535188">
+       <screen x="0" y="0" width="1792" height="1120" />
+     </state>
+-    <state x="355" y="70" key="DiffContextDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1648603819485" />
++    <state x="161" y="69" key="DiffContextDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1648827535188" />
+     <state x="909" y="506" key="Gitee.ShareDialog" timestamp="1648710604311">
+       <screen x="0" y="0" width="1792" height="1120" />
+     </state>
+@@ -301,10 +311,10 @@
+       <screen x="0" y="0" width="1792" height="1120" />
+     </state>
+     <state x="631" y="170" key="SettingsEditor/0.0.1792.1120@0.0.1792.1120" timestamp="1648711878091" />
+-    <state x="671" y="269" key="Vcs.Push.Dialog.v2" timestamp="1648719357063">
++    <state x="671" y="269" key="Vcs.Push.Dialog.v2" timestamp="1648734294228">
+       <screen x="0" y="0" width="1792" height="1120" />
+     </state>
+-    <state x="671" y="269" key="Vcs.Push.Dialog.v2/0.0.1792.1120@0.0.1792.1120" timestamp="1648719357063" />
++    <state x="671" y="269" key="Vcs.Push.Dialog.v2/0.0.1792.1120@0.0.1792.1120" timestamp="1648734294228" />
+     <state x="773" y="215" width="899" height="653" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1648577662165">
+       <screen x="0" y="0" width="1792" height="1120" />
+     </state>
+Index: module2/src/main/java/Feature.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>public class Feature {\n    String fea = \"mickey\";\n}\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- module2/src/main/java/Feature.java	(revision 0d1f828472fa9e96ef7abffd0903441ca1aa2896)
++++ module2/src/main/java/Feature.java	(date 1648827494371)
+@@ -1,3 +1,3 @@
+ public class Feature {
+-    String fea = "mickey";
++    String name = "mickey";
+ }
