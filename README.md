@@ -1,5 +1,5 @@
 # git
-
+[github官方手册](https://docs.github.com/cn/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request)
 [常用 Git 命令清单 - 阮一峰的网络日志 (ruanyifeng.com)](https://www.ruanyifeng.com/blog/2015/12/git-cheat-sheet.html)
 
 c6aca34   v-d
@@ -230,3 +230,56 @@ $git checkout  src/main/java/Main.java
 ```
 
 $ git checkout [commit] [file]恢复某个commit的指定文件到暂存区和工作区
+
+
+
+多人协作 https://zhuanlan.zhihu.com/p/23478654
+
+https://blog.csdn.net/xiaokang123456kao/article/details/70921259?spm=1001.2101.3001.6650.1&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1.pc_relevant_default&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1.pc_relevant_default&utm_relevant_index=2
+
+https://blog.csdn.net/silently_frog/article/details/79557329?spm=1001.2101.3001.6650.8&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7ERate-8.pc_relevant_default&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7ERate-8.pc_relevant_default&utm_relevant_index=12
+
+例如现在有两个分支 master 和 feature, 你在 feature 分支上进行了实验，这时候有个另外的人在 master 分支上进行了新的提交。那么你需要将 master上别人的修改应用到 feature 分支上。git checkout feature ,  git merge master
+
+https://juejin.cn/post/6844903890295455751#heading-8
+
+https://git-scm.com/book/zh/v2/%E5%88%86%E5%B8%83%E5%BC%8F-Git-%E5%90%91%E4%B8%80%E4%B8%AA%E9%A1%B9%E7%9B%AE%E8%B4%A1%E7%8C%AE
+
+![image-20220401194654959](C:\Users\DELL\AppData\Roaming\Typora\typora-user-images\image-20220401194654959.png)
+
+不要在公共的分支上使用rebase！不要在develop上rebase！https://cloud.tencent.com/developer/article/1831533
+
+什么是共享分支？当一个分支会被push到远程仓库，且有可能其他人会进行pull操作时，这就是一个共享分支
+
+   Develop分支：开发用的分支叫做Develop分支，用来生成代码的最新隔夜版本（nightly）。如果想正式对外发布，就在Master分支上，对Develop分支进行"合并"（merge）。
+
+https://cloud.tencent.com/developer/article/1831533
+
+![img](https://pic2.zhimg.com/80/v2-9e47bd5529cc8f6092fff84d30d0e4dd_1440w.jpg)
+
+将develop分支合并到feature分支：git checkout feature，  git merge develop ，但这种快进式合并 直接将develop分支只想feature分支。使用--no-ff参数（推荐）后，会执行正常合并，在develop分支上生成一个新节点。
+
+https://blog.csdn.net/weixin_42051619/article/details/107449425
+
+合并多个commit https://juejin.cn/post/6844903989641756679#heading-3
+
+
+
+合并feature分支https://www.1024sou.com/article/349933.html
+
+非快速合并：git merge feature --no-ff -m "merge with no-ff" 
+
+不使用fast-forward方式合并，合并的时候会创建一个新的commit用于合并。
+
+
+
+与上一个commit进行合并，我们在本地commit时，使用下列命令：
+
+1. git add
+2. git commit --amend
+
+git commit --amend 将当前status中的修改与上一个commit进行合并，且可以编辑上一个提交的注释作为合并后的注释。
+
+ \3. git push -u origin 分支名 -f
+
+
