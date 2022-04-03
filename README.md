@@ -24,6 +24,25 @@ c6aca34   v-d
 
 # latest updation on this site: https://gitee.com/valerieJJ/GitExm
 
+### 合并Dev到master
+
+- 切回master分支上，`git checkout master`
+
+- 把远程master分支上的代码pull下来 `git pull origin master`
+
+- 把dev分支的代码合并到master上 `git merge dev`
+
+- 查看状态 `git status`
+
+- 切记！合并之后切回Dev分支，不要在master上开发 `git checkout dev`
+
+- 如果需要获取指定的历史版本代码,执行 git checkout 哈希值
+
+  ```bash
+  git checkout b0362a89af47de1b3f702
+  ```
+
+
 ### 分支操作
 
 ``` bash
