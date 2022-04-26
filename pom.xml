@@ -13,8 +13,21 @@
     <artifactId>git-exm</artifactId>
     <version>1.0-SNAPSHOT</version>
     <modules>
+        <module>web</module>
         <module>module1</module>
     </modules>
+    <properties>
+        <spring.boot.version>2.2.2.RELEASE</spring.boot.version>
+    </properties>
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-dependencies</artifactId>
+                <version>${spring.boot.version}</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
 
     <packaging>pom</packaging>
 
