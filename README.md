@@ -303,3 +303,7 @@ git commit --amend 将当前status中的修改与上一个commit进行合并，�
  \3. git push -u origin 分支名 -f
 
 
+```shell
+$ git config --global http.sslVerify "false"
+
+$ git config --global --unset http.proxy```
