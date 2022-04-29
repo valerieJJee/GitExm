@@ -16,6 +16,7 @@ public class Worker {
 
     private int mProgress = 0;
 
+    public Worker(){}
     public Worker(IExecuteCallBack iExecuteCallBack, String jobname){
         this.iExecuteCallBack = iExecuteCallBack;
         this.jobname = jobname;
